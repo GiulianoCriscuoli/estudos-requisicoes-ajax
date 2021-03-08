@@ -17,7 +17,7 @@ $(document).ready(function() {
             }
 
             if(statusTxt == "error") {
-                alert("Erro na comunicação!");
+                alert("Erro na comunicação!"+ xhr.status + ":" + xhr.statusTxt);
             }
         });
     })
