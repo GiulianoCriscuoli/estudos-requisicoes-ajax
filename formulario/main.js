@@ -20,6 +20,5 @@ function submit(id_form) {
                $("#info").html("Aconteceu um erro!");
             }
         })
-
     });
 }
