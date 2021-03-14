@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav {
+    height: 40px;
+    background-color: #000;
+    color: #FFF;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    float: left;
+    padding: 0 20px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.home {
+    height: 40px;
+}
+
+.content {
+    width: 150px;
+    height: 120px;
+    position: absolute;
+    background-color: #000;
+    display: none;
+}
